@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4D3CCD725534D4300730B7C /* ProcessRunner in Frameworks */ = {isa = PBXBuildFile; productRef = B4D3CCD625534D4300730B7C /* ProcessRunner */; };
 		E476AC5623158BEE00A3A1FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E476AC5523158BEE00A3A1FF /* AppDelegate.swift */; };
 		E476AC5823158BEF00A3A1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E476AC5723158BEF00A3A1FF /* Assets.xcassets */; };
 		E476AC5B23158BEF00A3A1FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E476AC5923158BEF00A3A1FF /* MainMenu.xib */; };
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D3CCD725534D4300730B7C /* ProcessRunner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = RightClickExtension;
+			packageProductDependencies = (
+				B4D3CCD625534D4300730B7C /* ProcessRunner */,
+			);
 			productName = RightClickExtension;
 			productReference = E476AC6723158C3200A3A1FF /* RightClickExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -188,6 +193,9 @@
 				Base,
 			);
 			mainGroup = E476AC4923158BEE00A3A1FF;
+			packageReferences = (
+				B4D3CCD525534D4300730B7C /* XCRemoteSwiftPackageReference "ProcessRunner" */,
+			);
 			productRefGroup = E476AC5323158BEE00A3A1FF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,10 +385,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinderUtilities/FinderUtilities.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RWR4H6QC95;
+				DEVELOPMENT_TEAM = 55JDMEGK2E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FinderUtilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,7 +396,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.suolapeikko.extensionapps.FinderUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = website.jons.FinderUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -400,10 +408,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FinderUtilities/FinderUtilities.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = RWR4H6QC95;
+				DEVELOPMENT_TEAM = 55JDMEGK2E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FinderUtilities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,7 +419,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.suolapeikko.extensionapps.FinderUtilities;
+				PRODUCT_BUNDLE_IDENTIFIER = website.jons.FinderUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -421,11 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = RightClickExtension/RightClickExtension.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWR4H6QC95;
+				DEVELOPMENT_TEAM = 55JDMEGK2E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = RightClickExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,7 +442,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.suolapeikko.extensionapps.FinderUtilities.RightClickExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = website.jons.FinderUtilities.RightClickExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,11 +453,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = RightClickExtension/RightClickExtension.entitlements;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWR4H6QC95;
+				DEVELOPMENT_TEAM = 55JDMEGK2E;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = RightClickExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,7 +466,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MARKETING_VERSION = 1.5;
-				PRODUCT_BUNDLE_IDENTIFIER = com.github.suolapeikko.extensionapps.FinderUtilities.RightClickExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = website.jons.FinderUtilities.RightClickExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -496,6 +504,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4D3CCD525534D4300730B7C /* XCRemoteSwiftPackageReference "ProcessRunner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eneko/ProcessRunner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4D3CCD625534D4300730B7C /* ProcessRunner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4D3CCD525534D4300730B7C /* XCRemoteSwiftPackageReference "ProcessRunner" */;
+			productName = ProcessRunner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E476AC4A23158BEE00A3A1FF /* Project object */;
 }
